@@ -9,17 +9,37 @@ body{
 
 }
 
+/* ------Header------ */
+
+#titulo--header{
+    font-size: 3rem;
+    margin-top: auto;   
+}
+
 #header{
     background-color: #ffffdd;
     height: 7.5rem;
     text-align: center;
 }
 
+
 /* ------Main------ */
 
+.titulo--main {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.container--indicaciones{
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem;
+}
 .container-card{
     display: flex; 
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .card{
@@ -30,7 +50,16 @@ body{
     box-shadow: 5px 5px 10px;
 }
 
-#resultado{
-    line-height: 0.2rem;
-    font-size: 1rem;
+.negocio{
+    margin: 5px;
+    line-height: 2rem;
+    font-size: 2rem;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+}
+
+.muestraRubro{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
 }

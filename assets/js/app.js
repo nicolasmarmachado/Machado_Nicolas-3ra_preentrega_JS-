@@ -18,11 +18,11 @@ function mostrarRubro(){
   const arrayRubro=JSON.parse(resultadoRubro)
   console.log(arrayRubro)
   console.log(typeof arrayRubro)
-  const muestraRubro = document.querySelector('#muestraRubro');
+  const muestraRubro = document.querySelector('.muestraRubro');
   muestraRubro.innerHTML = '';
   for (const negocio of arrayRubro){
     muestraRubro.innerHTML+=`
-    <div id="resultado"><p>${negocio.rubro} - ${negocio.negocio}</p></div>  `
-  }
-}
+    <div class="negocio"><p>${negocio.rubro} - ${negocio.negocio}</p></div>  `
 
+}
+}
