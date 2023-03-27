@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #ffffdd, rgb(150, 78, 78));
+
+}
+
+#header{
+    background-color: #ffffdd;
+    height: 100px;
+}
+
+/* ------Main------ */
+
+#main--container{
+    /* background: radial-gradient(circle, #ffffdd, rgb(150, 78, 78)); */
+}
+
+.container-card{
+    display: flex; 
+    flex-direction: row;
+}
+
+.card{
+    margin: 5px;    
+}
+
+.card:hover{
+    box-shadow: 5px 5px 10px;
+}
+
+/* 
+.resaltar{
+} */
+
