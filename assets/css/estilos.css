@@ -1,3 +1,7 @@
+html{
+    font-size: 62.5%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -7,14 +11,11 @@ body{
 
 #header{
     background-color: #ffffdd;
-    height: 100px;
+    height: 7.5rem;
+    text-align: center;
 }
 
 /* ------Main------ */
-
-#main--container{
-    /* background: radial-gradient(circle, #ffffdd, rgb(150, 78, 78)); */
-}
 
 .container-card{
     display: flex; 
@@ -29,7 +30,7 @@ body{
     box-shadow: 5px 5px 10px;
 }
 
-/* 
-.resaltar{
-} */
-
+#resultado{
+    line-height: 0.2rem;
+    font-size: 1rem;
+}

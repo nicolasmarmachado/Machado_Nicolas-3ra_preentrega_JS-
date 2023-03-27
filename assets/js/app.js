@@ -14,14 +14,14 @@ cards.forEach(card => {
 });
 
 function mostrarRubro(){
-  
   const resultadoRubro= localStorage.getItem('rubros')
   const arrayRubro=JSON.parse(resultadoRubro)
   console.log(arrayRubro)
   console.log(typeof arrayRubro)
   const muestraRubro = document.querySelector('#muestraRubro');
+  muestraRubro.innerHTML = '';
   for (const negocio of arrayRubro){
-    muestraRubro.innerHTML=`
+    muestraRubro.innerHTML+=`
     <div id="resultado"><p>${negocio.rubro} - ${negocio.negocio}</p></div>  `
   }
 }
